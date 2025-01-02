@@ -17,11 +17,11 @@ window.onload = () => {
     let comm = document.getElementById("comm");
     let taxes = document.getElementById("taxes");
 
-    document.getElementById("qty").value = localStorage.getItem('qty');
-    document.getElementById("margin").value = localStorage.getItem('margin');
-    document.getElementById("price").value = localStorage.getItem('price');
-    document.getElementById("comm").value = localStorage.getItem('comm');
-    document.getElementById("taxes").value = localStorage.getItem('taxes');
+    //document.getElementById("qty").value = localStorage.getItem('q');
+    //document.getElementById("margin").value = localStorage.getItem('m');
+    //document.getElementById("price").value = localStorage.getItem('p');
+    document.getElementById("comm").value = localStorage.getItem('c');
+    document.getElementById("taxes").value = localStorage.getItem('t');
 }
 
 
